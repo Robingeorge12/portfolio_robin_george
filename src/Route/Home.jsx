@@ -56,6 +56,11 @@ export default function Home() {
             <Link
               href="Robin_George_Resume.pdf"
               download="Robin_George_Resume.pdf"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1TaPfTrafYWjQPRd4JrUNCEXL6YXhlOS6/view?usp=sharing"
+                )
+              }
             >
               <Button m="10px" textColor="white" bgColor="blue.200">
                 {" "}
@@ -73,7 +78,13 @@ export default function Home() {
             justify="center"
           >
             <Text>
-              <Link href="https://www.linkedin.com/in/robin-george-909699232">
+              <Link
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/robin-george-909699232"
+                  )
+                }
+              >
                 {" "}
                 <img
                   width="30px"
@@ -83,7 +94,9 @@ export default function Home() {
               </Link>
             </Text>
             <Text>
-              <Link href="https://github.com/Robingeorge12">
+              <Link
+                onClick={() => window.open("https://github.com/Robingeorge12")}
+              >
                 {" "}
                 <Image
                   bgColor="white"
@@ -94,7 +107,9 @@ export default function Home() {
               </Link>
             </Text>
             <Text>
-              <Link href="mailto:robingsa.btch@gmail.com">
+              <Link
+                onClick={() => window.open("mailto:robingsa.btch@gmail.com")}
+              >
                 {" "}
                 <Image
                   bgColor="white"

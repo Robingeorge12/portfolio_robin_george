@@ -54,19 +54,52 @@ export default function Project() {
                   </Text> */}
                 </Box>
                 <HStack>
-                  <Box ml="60px" mr={4}>
-                    <Link href="https://github.com/Robingeorge12/OrderManagement_FullStack_Project">
-                      <Button bgColor="red.300" color="white">
-                        CODE{" "}
+                  <Box>
+                    <Link
+                      // href="https://github.com/Robingeorge12/OrderManagement_FullStack_Project"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/Robingeorge12/orderManagement_Backend_Project"
+                        )
+                      }
+                    >
+                      <Button ml={["0", "0", "5px","5px"]} bgColor="red.300" color="white">
+                        BE{" "}
                         <Text pl={4}>
                           <BsGithub />
                         </Text>{" "}
                       </Button>
                     </Link>
                   </Box>
+
+                  <Box mr={0}>
+                    <Link
+                      // href="https://github.com/Robingeorge12/OrderManagement_FullStack_Project"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/Robingeorge12/OrderManagement_FullStack_Project/tree/master/FRONTEND"
+                        )
+                      }
+                    >
+                      <Button bgColor="red.300" color="white">
+                        FE{" "}
+                        <Text pl={4}>
+                          <BsGithub />
+                        </Text>{" "}
+                      </Button>
+                    </Link>
+                  </Box>
+
                   <Box mr="-20px">
                     {" "}
-                    <Link href="https://order-management-system-frontend-delta.vercel.app/">
+                    <Link
+                      // href="https://order-management-system-frontend-delta.vercel.app/"
+                      onClick={() =>
+                        window.open(
+                          "https://order-management-system-frontend-delta.vercel.app/"
+                        )
+                      }
+                    >
                       <Button bgColor="red.300" color="white">
                         LIVE{" "}
                         <Text pl={4}>
@@ -110,7 +143,14 @@ export default function Project() {
                 </Box>
                 <HStack>
                   <Box ml="60px" mr={4}>
-                    <Link href="https://github.com/Robingeorge12/capable-downtown-7255">
+                    <Link
+                      // href="https://github.com/Robingeorge12/capable-downtown-7255"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/Robingeorge12/capable-downtown-7255"
+                        )
+                      }
+                    >
                       <Button bgColor="red.300" color="white">
                         CODE{" "}
                         <Text pl={4}>
@@ -120,7 +160,12 @@ export default function Project() {
                     </Link>
                   </Box>
                   <Box mr="60px">
-                    <Link href="https://shine-react.vercel.app/">
+                    <Link
+                      // href="https://shine-react.vercel.app/"
+                      onClick={() =>
+                        window.open("https://shine-react.vercel.app/")
+                      }
+                    >
                       <Button bgColor="red.300" color="white">
                         LIVE{" "}
                         <Text pl={4}>
@@ -164,7 +209,14 @@ export default function Project() {
               </Box>
               <HStack>
                 <Box ml="60px" mr={4}>
-                  <Link href="https://github.com/Avdhoot-Kurhe/indianMART_Site">
+                  <Link
+                    // href="https://github.com/Avdhoot-Kurhe/indianMART_Site"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Avdhoot-Kurhe/indianMART_Site"
+                      )
+                    }
+                  >
                     <Button bgColor="red.300" color="white">
                       CODE{" "}
                       <Text pl={4}>
@@ -175,7 +227,12 @@ export default function Project() {
                 </Box>
                 <Box mr="-20px">
                   {" "}
-                  <Link href="https://idyllic-elf-19b91b.netlify.app/">
+                  <Link
+                    // href="https://idyllic-elf-19b91b.netlify.app/"
+                    onClick={() =>
+                      window.open("https://idyllic-elf-19b91b.netlify.app/")
+                    }
+                  >
                     <Button bgColor="red.300" color="white">
                       LIVE{" "}
                       <Text pl={4}>

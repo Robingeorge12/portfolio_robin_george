@@ -125,6 +125,11 @@ function Navbar() {
             <a
               href="Robin_George_Resume.pdf"
               download="Robin_George_Resume.pdf"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1TaPfTrafYWjQPRd4JrUNCEXL6YXhlOS6/view?usp=sharing"
+                )
+              }
             >
               <Button m="10px" textColor="white" bgColor="black">
                 {" "}
@@ -253,6 +258,11 @@ function Navbar() {
               <a
                 href="Robin_George_Resume.pdf"
                 download="Robin_George_Resume.pdf"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1TaPfTrafYWjQPRd4JrUNCEXL6YXhlOS6/view?usp=sharing"
+                  )
+                }
               >
                 <Button m="10px" textColor="white" bgColor="black">
                   {" "}
